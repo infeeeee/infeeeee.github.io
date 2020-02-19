@@ -1,6 +1,5 @@
 ---
 layout: default
-date: 2020-02-19
 ---
 
 # Working with ifc files in Revit

@@ -5,3 +5,4 @@ description: About Revit, ifc and other things
 plugins:
   - jekyll-feed
 author: infeeeee
+permalink: none

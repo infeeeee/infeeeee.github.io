@@ -2,3 +2,6 @@
 theme: jekyll-theme-slate
 title: Notes by infeeeee
 description: About Revit, ifc and other things
+plugins:
+  - jekyll-feed
+author: infeeeee

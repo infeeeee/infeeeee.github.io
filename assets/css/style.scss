@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.homepage{
+    ul{
+        list-style: none;
+    }
+    .contents{
+        h3, h4{
+            text-transform: capitalize;
+        }
+        h4{
+            margin-left: 1rem;
+        }
+        li{
+            margin-left: 1.3rem;
+        }
+    }
+}

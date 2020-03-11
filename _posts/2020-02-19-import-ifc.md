@@ -1,8 +1,11 @@
 ---
 layout: default
+categories: revit
+tags: ifc
+title: Opening ifc files in Revit
 ---
 
-# Working with ifc files in Revit
+# Opening ifc files in Revit
 
 ## Links
 

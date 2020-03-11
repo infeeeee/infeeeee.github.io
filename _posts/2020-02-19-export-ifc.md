@@ -1,5 +1,8 @@
 ---
 layout: default
+categories: revit
+tags: ifc
+title: Exporting ifc files from Revit
 ---
 
 # Exporting ifc files from Revit

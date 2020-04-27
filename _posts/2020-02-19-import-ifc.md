@@ -61,6 +61,16 @@ To install simply search for 'ifc' on the extensions tab in VScode.
 
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=alanrynne.ifc-syntax)
 
+### Proper IFC 2x3 import settings
+
+V0S0 Github and RevitForum user created a proper import setting file, so every IFC types should be translated to the correct Revit category. You can find this list here:
+
+https://github.com/V0S0/Revit-IFC-Import-Settings
+
+The default category mapping is documented in the Revit Category Guide:
+
+https://docs.google.com/spreadsheets/d/1uNa77XYLjeN-1c63gsX6C5D5Pvn_3ZB4B0QMgPeloTw/edit#gid=3
+
 ## The opening and linking methods
 
 An ifc file can be opened two ways in Revit

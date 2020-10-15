@@ -12,3 +12,5 @@ gem "jekyll-theme-slate"
 # gem "rails"
 
 gem 'jekyll-feed'
+
+gem "kramdown-parser-gfm"

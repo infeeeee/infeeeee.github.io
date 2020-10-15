@@ -8,17 +8,30 @@ layout: home
 
 {% for category in site.categories %}
 <h3>{{ category[0] }}</h3>
-    {% for tag in site.tags %}
-<h4>{{ tag[0]}}</h4>
-<ul>
-            {% for post in tag[1] %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-            </ul>
-    {% endfor %}
+    <ul>
+        {% for post in category[1] %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>    
 {% endfor %}
 
 </div>
+
+## Topics
+
+<div class="contents">
+
+{% for tag in site.tags %}
+<h4>{{ tag[0] }}</h4>
+    <ul>
+        {% for post in tag[1] %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>    
+{% endfor %}
+
+</div>
+
 
 ## About me
 

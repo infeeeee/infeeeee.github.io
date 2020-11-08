@@ -11,13 +11,13 @@ It's that time of the year again...
 
 Philips official manual about the semi-annual descaling process of this coffee machine is terrible. The explanations of the process spans four pages in the manual. Also I bought this machine second hand, so I didn't got a manual, and turning pages back and forth in the pdf, while following the process is tiring. So I created an extract, which contains only the steps, without oversized and unnecessary images, straight to the point. 
 
-Download the extract in pdf from here: [pdf](attachments/Philips%20Saeco%20Xsmall%20Descaling.pdf). Printable in A4 format.
+Download the extract in pdf from here: [pdf](assets/attachments/Philips%20Saeco%20Xsmall%20Descaling.pdf). Printable in A4 format.
 
-Or in editable docx: [docx](attachments/Philips%20Saeco%20Xsmall%20Descaling.docx)
+Or in editable docx: [docx](assets/attachments/Philips%20Saeco%20Xsmall%20Descaling.docx)
 
 And here it is as a png image:
 
-![extract as image](images/Philips%20Saeco%20Xsmall%20Descaling.png)
+![extract as image](assets/images/Philips%20Saeco%20Xsmall%20Descaling.png)
 
 ## Disclaimer
 

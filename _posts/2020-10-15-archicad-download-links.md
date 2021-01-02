@@ -21,15 +21,21 @@ https://dl.graphisoft.com/AC/21/HUN/AC/ARCHICAD-21-HUN-3011-1.0.exe
 
 ## 23
 
-### US
+### Mac
 
-#### Mac
+#### US
 
 https://dl.graphisoft.com/AC/23/USA/AC/ARCHICAD-23-USA-3003-1.2.dmg
 
-### Hungarian
+#### Hungarian
 
 https://dl.graphisoft.com/AC/23/HUN/AC/ARCHICAD-23-HUN-3003-1.1.dmg
+
+### Win
+
+#### INT
+
+https://dl.graphisoft.com/AC/23/INT/AC/ARCHICAD-23-INT-3003-1.2.exe
 
 ## 24
 

@@ -25,7 +25,7 @@ Source: [ssh with public key - bad ownership or modes for directory - Seite 2 - 
 
 ## Smart
 
-Hdd safew temps:
+Hdd safe temps:
 
 Informal: 45
 
@@ -41,7 +41,7 @@ Download plugin as deb from here:
 
 https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/openmediavault-omvextrasorg_latest_all5.deb
 
-### QEMU-KVM
+## QEMU-KVM
 
 ### Virt-manager from remote
 
@@ -61,20 +61,61 @@ sudo apt install netcat-openbsd
 
 ### Bridged network
 
-- Install bridge-utils: 
+*This part is a work in progress, I still didn't find a best solution.*
+
+- ~~Install bridge-utils:~~
+  
+  *I'm not 100% sure if this is needed*
   
   ```shell
   sudo apt install bridge-utils
   ```
 
-- Find device name, with `ip a` something like `enp0s25`
+OMV5 uses [netplan.io](https://netplan.io/). To create a bridge with netplan:
 
-- ```shell
-  sudo virsh iface-bridge enp0s25 br0
-  ```
+```shell
+cd /etc/netplan
+sudo nano 30-bridge.yaml
+```
 
-- Check if bridge is in `/etc/network/interfaces`
+Obviously, use a bigger number than 30 if there are more files in this directory. The contents of the file:
 
-- Reboot the server (it should be enough to reload networking, but it always messes up ip addresses, so it's just easier to simply reboot)
+```yaml
+network:
+  bridges:
+    br0:
+      interfaces: [enp0s25]
+      dhcp4: true
+      dhcp6: no
+```
 
-- Bridged network should work now
+For the interface use the name of the ethernet interface.
+
+If this folder is empty you can regenerate networks from `omv-firstaid`>`configure network interfaces`
+
+Reboot the server (it should be enough to reload networking, but it always messes up ip addresses, so it's just easier to simply reboot)
+
+Bridged network should work now
+
+## Docker
+
+### Docker and bridge network
+
+Docker breaks libvirt bridge network:
+
+[iptables - Docker breaks libvirt bridge network - Server Fault](https://serverfault.com/questions/963759/docker-breaks-libvirt-bridge-network)
+
+My solution is from the question itself, as I never expose vms to the outside world, so they are already behind the router's firewall. It's also important to install `iptables-persistent` and `netfilter-persistent`. As `iptables-persistent` saves the current rules during install, it's recommended to set up the rule first, than install `iptables.persistent`
+
+```shell
+sudo iptables -I FORWARD -i br0 -o br0 -j ACCEPT
+sudo apt install iptables-persistent netfilter-persistent
+```
+
+Saving the iptables after installation: (Piping doesn't work with sudo)
+
+```shell
+sudo su
+iptables-save > /etc/iptables/rules.v4
+exit
+```

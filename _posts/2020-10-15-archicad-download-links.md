@@ -37,6 +37,10 @@ https://dl.graphisoft.com/AC/23/HUN/AC/ARCHICAD-23-HUN-3003-1.1.dmg
 
 https://dl.graphisoft.com/AC/23/INT/AC/ARCHICAD-23-INT-3003-1.2.exe
 
+#### HUN
+
+https://dl.graphisoft.com/AC/23/HUN/AC/ARCHICAD-23-HUN-3003-1.1.exe
+
 ## 24
 
 ### Win

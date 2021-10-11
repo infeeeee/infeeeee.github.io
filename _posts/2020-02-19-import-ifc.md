@@ -85,6 +85,8 @@ Characteristics of this method:
 
 - Every element is a different type, so no real types, huge file size
 
+- Rooms imported as rooms
+
 - All parameters imported as Type parameter, you should be able to schedule them
 
 - There is one instance parameter, IfcGUID, the "ifc id" of the element
@@ -98,6 +100,8 @@ To use this method go to Insert -> Link IFC
 In reality it doesn't link the original ifc file. It will create an rvt file named the same way as the ifc file. If you want to work on the ifc file, not just link it, you can open this automatically generated rvt file.
 
 - Parameters are created as Instance parameters, you can schedule and even modify them
+
+- Rooms imported as Generic model
 
 - Schedules created automatically listing all parameters
 

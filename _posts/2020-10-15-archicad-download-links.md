@@ -198,3 +198,15 @@ https://graphisoft.akamaized.net/cdn/AC/24/SWE/ARCHICAD-24-SWE-3022-1.2.dmg
 #### Portugal
 
 https://graphisoft.akamaized.net/cdn/AC/24/POR/ARCHICAD-24-POR-3022-1.2.dmg
+
+## 25
+
+### MAC
+
+#### INT
+
+https://gsdownloads-cdn.azureedge.net/cdn/AC/25/INT/ARCHICAD-25-INT-3002-1.1.dmg
+
+Update 3011:
+
+https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac25/ARCHICAD-25-INT-Update-3011-1.2.dmg

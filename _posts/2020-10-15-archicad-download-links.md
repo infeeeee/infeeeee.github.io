@@ -11,6 +11,8 @@ These are official links from Graphisoft.
 
 This list is not finished, I will just add links as I need them.
 
+Please report dead links [here](https://github.com/infeeeee/infeeeee.github.io/issues)
+
 ## 21
 
 ### Hungarian
@@ -18,6 +20,18 @@ This list is not finished, I will just add links as I need them.
 #### Win
 
 https://dl.graphisoft.com/AC/21/HUN/AC/ARCHICAD-21-HUN-3011-1.0.exe
+
+## 22
+
+### Win
+
+#### INT
+
+https://dl.graphisoft.com/AC/22/INT/AC/ARCHICAD-22-INT-3006-1.4.exe
+
+#### HUN
+
+https://dl.graphisoft.com/AC/22/HUN/AC/ARCHICAD-22-HUN-3009-1.0.exe
 
 ## 23
 

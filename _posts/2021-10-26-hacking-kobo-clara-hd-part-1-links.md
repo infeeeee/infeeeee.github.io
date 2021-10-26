@@ -2,7 +2,7 @@
 layout: default
 categories: ebook-reader
 tags: hardware
-title: Hacking Kobo Clara HD - Part 1: links
+title: Hacking Kobo Clara HD - Part 1 links
 ---
 
 # Hacking Kobo Clara HD - Part 1: links

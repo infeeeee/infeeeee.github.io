@@ -1,7 +1,7 @@
 ---
 layout: default
 categories: revit
-tags: autodesk-desktop-connector
+tags: installation
 title: Autodesk Desktop Connector download link
 ---
 
@@ -11,7 +11,7 @@ If you just search for Autodesk Desktop Connector yopu will find a shitty subscr
 
 Fortunately an official download link exists, but it's buried in a help article. With this link it will download the latest version automatically:
 
-[desktop-connector - BIM 360](https://www.autodesk.com/bim-360/desktop-connector/)
+[desktop-connector x64 - BIM 360](https://www.autodesk.com/adsk-connect-64)
 
 Source:
 
@@ -19,4 +19,6 @@ Source:
 
 Until they put this behind the shitty and time consuming AVA...
 
+---
 
+Updated on 2021-11-29: Link changed...

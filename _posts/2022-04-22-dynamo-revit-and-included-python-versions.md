@@ -5,7 +5,7 @@ tags: dynamo
 title: Dynamo, Revit and included Python versions
 ---
 
-# Dynamo versions vs Revit versions
+# Dynamo, Revit and included Python versions
 
 Dynamo versions shipped with Revit, and the included Python versions:
 
@@ -24,7 +24,7 @@ Dynamo versions shipped with Revit, and the included Python versions:
 
 ---
 
-Before 2020, Dynamo had to be installed manually. Compatible versions are listed in the primer: [The Revit Connection | The Dynamo Primer](https://primer.dynamobim.org/08_Dynamo-for-Revit/8-1_The-Revit-Connection.html)
+Before 2020, Dynamo had to be installed manually. Compatible versions are listed in the primer: [The Revit Connection - The Dynamo Primer](https://primer.dynamobim.org/08_Dynamo-for-Revit/8-1_The-Revit-Connection.html)
 
 I copied the table from that site, links point to the same downloads:
 

@@ -11,18 +11,27 @@ Dynamo versions shipped with Revit, and the included Python versions:
 
 | Revit version | Dynamo | IronPython2 | CPython3 |
 | ------------- | ------ | ----------- | -------- |
-| **2020**      | 2.1    | 2.7.8       | ❌        |
-| 2020.1        | 2.2    | 2.7.8       | ❌        |
-| 2020.2        | 2.3    | 2.7.8       | ❌        |
-| **2021**      | 2.5    | 2.7.9       | ❌        |
-| 2021.1        | 2.6    | 2.7.9       | ❌        |
+| **2020**      | 2.1    | 2.7.8       | ❌       |
+| 2020.1        | 2.2    | 2.7.8       | ❌       |
+| 2020.2        | 2.3    | 2.7.8       | ❌       |
+| **2021**      | 2.5    | 2.7.9       | ❌       |
+| 2021.1        | 2.6    | 2.7.9       | ❌       |
 | **2022**      | 2.10   | 2.7.9       | 3.8.3    |
 | 2022.1        | 2.12   | 2.7.9       | 3.8.3    |
-| **2023**      | 2.13   | ❌\*         | 3.8.10   |
+| **2023**      | 2.13   | ❌         | 3.8.10    |
+| 2023.1        | 2.16.1 | ❌         | 3.9.12    |
 
-\* From Dynamo 2.13 Ironpython is not included, but it can be downloaded from the package manager.
+## DynamoIronPython2.7 package
 
----
+From Dynamo 2.13 Ironpython is not included, but it can be downloaded from the package manager.
+
+IronPython2 versions in th `DynamoIronPython2.7` package:
+
+| Package version | IronPython2 |
+| --------------- | ----------- |
+| 1.0 - 2.5.0     | 2.7.9       |
+
+## Old versions, before 2020
 
 Before 2020, Dynamo had to be installed manually. Compatible versions are listed in the primer: [The Revit Connection - The Dynamo Primer](https://primer.dynamobim.org/08_Dynamo-for-Revit/8-1_The-Revit-Connection.html)
 

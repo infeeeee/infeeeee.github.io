@@ -13,7 +13,7 @@ This list is not finished, I will just add links as I need them.
 
 Please report dead links [here](https://github.com/infeeeee/infeeeee.github.io/issues)
 
-# 26
+## 26
 
 | OS  | Lang | Build       | Link                                                                                                         |
 | --- | ---- | ----------- | ------------------------------------------------------------------------------------------------------------ |
@@ -21,7 +21,7 @@ Please report dead links [here](https://github.com/infeeeee/infeeeee.github.io/i
 | WIN | USA  | 3010 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac26/Archicad-26-USA-Update-3010-1.0.exe |
 | IN  | INT  | 3010 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac26/Archicad-26-INT-Update-3010-1.0.exe |
 
-## Addons
+### Addons
 
 | Name                | OS  | Lang | Link                                                                                                                   |
 | ------------------- | --- | ---- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -37,6 +37,8 @@ Please report dead links [here](https://github.com/infeeeee/infeeeee.github.io/i
 
 | OS  | Lang | Build       | Link                                                                                                         |
 | --- | ---- | ----------- | ------------------------------------------------------------------------------------------------------------ |
+| MAC | INT  | 4013        | https://gsdownloads-cdn.azureedge.net/cdn/AC/25/INT/ARCHICAD-25-INT-4013-1.0.dmg                             |
+| MAC | INT  | 4013 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac25/ARCHICAD-25-INT-Update-4013-1.1.dmg |
 | MAC | INT  | 3002        | https://gsdownloads-cdn.azureedge.net/cdn/AC/25/INT/ARCHICAD-25-INT-3002-1.1.dmg                             |
 | MAC | INT  | 3011 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac25/ARCHICAD-25-INT-Update-3011-1.2.dmg |
 

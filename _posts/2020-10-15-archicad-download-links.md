@@ -15,11 +15,17 @@ Please report dead links [here](https://github.com/infeeeee/infeeeee.github.io/i
 
 ## 26
 
-| OS  | Lang | Build       | Link                                                                                                         |
-| --- | ---- | ----------- | ------------------------------------------------------------------------------------------------------------ |
-| WIN | USA  | 3001        | https://gsdownloads-cdn.azureedge.net/cdn/AC/26/USA/Archicad-26-USA-3001-1.1.exe                             |
-| WIN | USA  | 3010 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac26/Archicad-26-USA-Update-3010-1.0.exe |
-| IN  | INT  | 3010 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac26/Archicad-26-INT-Update-3010-1.0.exe |
+| OS  | Arch | Lang | Build       | Link                                                                                                         |
+| --- | ---- | ---- | ----------- | ------------------------------------------------------------------------------------------------------------ |
+| WIN | x64  | HUN  | 3010        | https://gsdownloads-cdn.azureedge.net/cdn/AC/26/HUN/Archicad-26-HUN-3010-1.1.exe                             |
+| WIN | x64  | USA  | 3001        | https://gsdownloads-cdn.azureedge.net/cdn/AC/26/USA/Archicad-26-USA-3001-1.1.exe                             |
+| WIN | x64  | USA  | 3010 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac26/Archicad-26-USA-Update-3010-1.0.exe |
+| WIN | x64  | INT  | 3010 Update | https://gsdownloads-cdn.azureedge.net/cdn/ftp/techsupport/downloads/ac26/Archicad-26-INT-Update-3010-1.0.exe |
+| MAC | ARM  | INT  | 4024        | https://gsdownloads-cdn.azureedge.net/cdn/AC/26/INT/Archicad-26-INT-4024-1.0-ARM.dmg                         |
+| MAC | ARM  | INT  | 4032 Update | https://dl.graphisoft.com/ftp/techsupport/downloads/ac26/Archicad-26-INT-Update-4032-1.1-ARM.dmg             |
+| MAC | ARM  | HUN  | 4032        | https://gsdownloads-cdn.azureedge.net/cdn/AC/26/HUN/Archicad-26-HUN-4032-1.0-ARM.dmg                         |
+
+
 
 ### Addons
 
